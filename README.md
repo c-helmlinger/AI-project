@@ -21,4 +21,6 @@ In scholarly writing, this is also called *Literature Review*. In this section, 
 
 This section describes the proposed model and the architecture (some diagram).
 
-- Easy way: you can adopt one of the models in the benchmark and update new sets of parameters. Let's say I have a data with one variable $X$. This model $f(\cdot)$ is a function that learns from $X$ and produce an educated guess of $Y$. I proposed to use $X^2$ and instead of using the old educated guess of $\hat{Y}_1 = f(X)$ we are using $\hat{Y}_2 = f(X^2)$. I can show with empirical results that $\hat{Y}_1$ is less accuratea than $\hat{Y}_2$.
+- Easy way: you can adopt one of the models in the benchmark and update new sets of parameters. Let's say I have a data with one variable $X$. This model $f(\cdot)$ is a function that learns from $X$ and produce an educated guess of $Y$. I proposed to use $X^2$ and instead of using the old educated guess of $\hat{Y}_1 = f(X)$ we are using $\hat{Y}_2 = f(X^2)$. I can show with empirical results that $\hat{Y}_1$ is less accurate than $\hat{Y}_2$.
+
+- Hard way: you can design a new model. Originally, we have the data $X$ and the model $f(\cdot)$ with educated guess of $\hat{Y}_1 = f(X)$. Now I propose a new model $g(\cdot)$. Then we have new educated guess $\hat{Y}_2 = g(X)$. I land on presenting the empirical evidence that $\hat{Y}_2$ is more accurate then $\hat{Y}_1$. 
